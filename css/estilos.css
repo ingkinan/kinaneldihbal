@@ -1,0 +1,172 @@
+header {
+
+	background-image: url("../img/fondo.png");
+	color: white;
+	justify-content: center;
+}
+
+.foto {
+
+	float: left;
+}
+
+/* footer {
+    
+	width: 100%;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	text-align: center;
+	position: relative;
+	
+
+} */
+
+.social {
+
+    /*Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	position: fixed;
+	/*Establecemos la barra en la izquierda*/
+	right: 0;
+	/*Bajamos la barra 200px de arriba a abajo*/
+	top: 275px;
+	 /*Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc*/
+	z-index: 2000;
+}
+
+.social ul {
+
+	list-style: none;
+}
+
+.social ul li a {
+
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	/*Tamaño*/
+	padding: 10px 15px;
+	text-decoration: none;
+
+    /*Establecemos una transición a todas las propiedades*/
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+/*Establecemos los colores de cada red social, aprovechando su class*/
+.social ul li .icon-facebook {background:#3b5998;} 
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-instagram {background: #cd486b;}
+.social ul li .icon-mail {background: #666666;}
+.social ul li .icon-youtube {background: #cc181e}
+
+.social ul li a:hover {
+
+    /*Cambiamos el fondo cuando el usuario pase el mouse*/
+	background: #007bff;
+}
+
+.menu-color{
+   background-color: #000000 !important; 
+}
+
+body{
+	background-color:black; 
+	font-family: Arial !important;
+}
+
+span{
+	
+	color: black;
+	font-family: Imprint MT Shadow;
+}
+
+.titulonav{
+
+	text-align: justify;
+	font-family: Imprint MT Shadow;
+	color: white !important;
+}
+
+
+#encabezado{
+		width: 100%;
+		height: auto;
+		background-color: white;
+		background-image: url(../img/.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	
+	}
+.lead{
+	color: white !important; 
+}	
+
+h1{
+	color:white !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#cuerpo{
+	width: auto;
+	height: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+    display: table;
+    font-family: arial;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #98c1ff;
+}
+
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.col-xl-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+
+#contenido{
+	background-color: #98c1ff !important;
+	width: auto;
+    height: auto;
+    margin-top: -16px;
+    margin-bottom: auto;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+.text-faded{
+	color: #000 !important;
+}
+
+.align-items-center {
+	background-color: #214c7b;
+	padding-bottom: 75px;
+    padding-top: 75px
+}
+.Redes{
+	padding-bottom: 90px;
+	padding-top: 70px;
+	background-color: #00507f;
+	font-family: Arial ;
+	color: white !important;
+}
+
+.h55{
+	color:black;
+}
